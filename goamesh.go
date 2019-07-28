@@ -10,8 +10,7 @@ import (
 )
 
 func main () {
-	limit := 5 * time.Second
-	showText("End!", limit)
+	showText("End!", 5 * time.Second)
 }
 
 func showText (text string, limit time.Duration) {
